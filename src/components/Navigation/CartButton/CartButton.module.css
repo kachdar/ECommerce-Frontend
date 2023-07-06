@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5c1a99;
+  color: aliceblue;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.button:hover {
+  background-color: #711fbe;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.count {
+  background-color: #330d4b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.button:hover .count {
+  background-color: #25104e;
+}
